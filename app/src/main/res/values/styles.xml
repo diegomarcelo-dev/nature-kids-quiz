@@ -1,0 +1,184 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="estiloButtonPlay" parent="@android:style/Widget.Button">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_width">256dp</item>
+        <item name="android:layout_margin">08dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">@drawable/button_vermelho_retangular</item>
+    </style>
+
+    <style name="estiloTelaMenu" parent="@android:style/Widget.Button">
+        <item name="android:layout_height">280dp</item>
+        <item name="android:layout_width">290dp</item>
+        <item name="android:background">@drawable/background_verde</item>
+    </style>
+
+    <style name="estiloButtonsMenuTreinandoCerebro" parent="@android:style/Widget.Button">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">02dp</item>
+        <item name="android:layout_marginTop">06dp</item>
+        <item name="android:background">@drawable/button_laranja01</item>
+    </style>
+
+    <style name="estiloButtonsMenuJogoForca" parent="@android:style/Widget.Button">
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">02dp</item>
+        <item name="android:layout_marginTop">06dp</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:background">@drawable/btn_forca_quadrado</item>
+    </style>
+
+    <style name="estiloButtonsSetaDireita" parent="@android:style/Widget.Button">
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_width">42dp</item>
+        <item name="android:background">@drawable/btn_seta_direita</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <style name="estiloButtonsSetaEsquerda" parent="@android:style/Widget.Button">
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_width">42dp</item>
+        <item name="android:background">@drawable/btn_seta_esquerda</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <style name="estiloButtonMenu" parent="@android:style/Widget.Button">
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_width">124dp</item>
+        <item name="android:background">@drawable/button_verde_fraco</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="estiloQuadroPerguntaJogoQuiz" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/background_verde_limao</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">07dip</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:layout_marginLeft">14dp</item>
+        <item name="android:layout_marginRight">14dp</item>
+        <item name="android:layout_marginTop">06dp</item>
+        <item name="android:layout_marginBottom">04dp</item>
+    </style>
+
+    <style name="estiloRadioButtonsAlternativas" parent="@android:style/Widget.Button">
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/button_verde_fraco</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="estiloImagemPerdeuVenceu" parent="@android:style/Widget.Button">
+        <item name="android:layout_height">105dp</item>
+        <item name="android:layout_width">200dp</item>
+    </style>
+
+    <style name="estiloButtonsForcaPerdeuGanhou" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/button_verde_fraco</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_marginTop">05dp</item>
+        <item name="android:padding">10dip</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="estiloQuadroTextoJogoQuiz" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/background_pardo</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_width">240dp</item>
+        <item name="android:padding">08dip</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginLeft">14dp</item>
+        <item name="android:layout_marginRight">14dp</item>
+        <item name="android:layout_marginTop">06dp</item>
+        <item name="android:layout_marginBottom">04dp</item>
+    </style>
+
+    <style name="marginLinearLayout" parent="@android:style/Widget.Button">
+        <item name="android:layout_marginTop">06dp</item>
+
+    </style>
+
+    <style name="marginRelativeLayout" parent="@android:style/Widget.Button">
+        <item name="android:layout_marginTop">56dp</item>
+
+    </style>
+
+    <style name="estiloQuadroPerguntaForca" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/background_verde_limao</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">07dip</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_marginLeft">18dp</item>
+        <item name="android:layout_marginRight">18dp</item>
+        <item name="android:layout_marginBottom">04dp</item>
+    </style>
+
+    <style name="estiloImagemBonecoForca" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_width">150dp</item>
+    </style>
+
+    <style name="estiloButtonsJogoForcaPalavra02" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/background_texto</item>
+        <item name="android:layout_height">27dp</item>
+        <item name="android:layout_width">27dp</item>
+        <item name="android:layout_margin">0.75dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#00FFFFFF</item>
+    </style>
+
+    <style name="estiloButtonsJogoForcaTeclado" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/button_cinza_quadrado</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>

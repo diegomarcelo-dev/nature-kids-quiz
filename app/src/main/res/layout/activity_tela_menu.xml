@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fundo_tela"
+    tools:context=".TelaMenu">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical|center_horizontal">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="18dp"
+                    android:background="@drawable/mascote"/>
+
+                <LinearLayout
+                    android:id="@+id/tela1"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    style="@style/estiloTelaMenu"
+                    android:background="@drawable/background_verde">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/f01"
+                            style="@style/estiloButtonsMenuTreinandoCerebro"
+                            android:background="@drawable/button_pata01"/>
+
+                        <Button
+                            android:id="@+id/bt01"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="01"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f04"
+                            style="@style/estiloButtonsMenuTreinandoCerebro"/>
+
+                        <Button
+                            android:id="@+id/bt04"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="04"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f07"
+                            style="@style/estiloButtonsMenuTreinandoCerebro"/>
+
+                        <Button
+                            android:id="@+id/bt07"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="07"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/f02"
+                            style="@style/estiloButtonsMenuTreinandoCerebro"
+                            android:background="@drawable/button_pata01"/>
+
+                        <Button
+                            android:id="@+id/bt02"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="02"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f05"
+                            style="@style/estiloButtonsMenuTreinandoCerebro" />
+
+                        <Button
+                            android:id="@+id/bt05"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="05"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f08"
+                            style="@style/estiloButtonsMenuTreinandoCerebro" />
+
+                        <Button
+                            android:id="@+id/bt08"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="08"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/f03"
+                            style="@style/estiloButtonsMenuTreinandoCerebro"
+                            android:background="@drawable/button_pata01"/>
+
+                        <Button
+                            android:id="@+id/bt03"
+                            style="@style/estiloButtonsMenuJogoForca"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="03"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f06"
+                            style="@style/estiloButtonsMenuTreinandoCerebro" />
+
+                        <Button
+                            android:id="@+id/bt06"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="06"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f09"
+                            style="@style/estiloButtonsMenuTreinandoCerebro" />
+
+                        <Button
+                            android:id="@+id/bt09"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="09"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tela2"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    style="@style/estiloTelaMenu"
+                    android:background="@drawable/background_verde"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/f10"
+                            style="@style/estiloButtonsMenuTreinandoCerebro" />
+
+                        <Button
+                            android:id="@+id/bt10"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f13"
+                            style="@style/estiloButtonsMenuTreinandoCerebro"/>
+
+                        <Button
+                            android:id="@+id/bt13"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="13"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f16"
+                            style="@style/estiloButtonsMenuTreinandoCerebro"/>
+
+                        <Button
+                            android:id="@+id/bt16"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="16"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/f11"
+                            style="@style/estiloButtonsMenuTreinandoCerebro"/>
+
+                        <Button
+                            android:id="@+id/bt11"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="11"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f14"
+                            style="@style/estiloButtonsMenuTreinandoCerebro" />
+
+                        <Button
+                            android:id="@+id/bt14"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="14"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f17"
+                            style="@style/estiloButtonsMenuTreinandoCerebro" />
+
+                        <Button
+                            android:id="@+id/bt17"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="17"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/f12"
+                            style="@style/estiloButtonsMenuTreinandoCerebro" />
+
+                        <Button
+                            android:id="@+id/bt12"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="12"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f15"
+                            style="@style/estiloButtonsMenuTreinandoCerebro" />
+
+                        <Button
+                            android:id="@+id/bt15"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="15"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f18"
+                            style="@style/estiloButtonsMenuTreinandoCerebro" />
+
+                        <Button
+                            android:id="@+id/bt18"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="18"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tela3"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    style="@style/estiloTelaMenu"
+                    android:background="@drawable/background_verde"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/f19"
+                            style="@style/estiloButtonsMenuTreinandoCerebro" />
+
+                        <Button
+                            android:id="@+id/bt19"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="19"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f22"
+                            style="@style/estiloButtonsMenuTreinandoCerebro"/>
+
+                        <Button
+                            android:id="@+id/bt22"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="22"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f25"
+                            style="@style/estiloButtonsMenuTreinandoCerebro"/>
+
+                        <Button
+                            android:id="@+id/bt25"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="25"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/f20"
+                            style="@style/estiloButtonsMenuTreinandoCerebro"/>
+
+                        <Button
+                            android:id="@+id/bt20"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="20"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f23"
+                            style="@style/estiloButtonsMenuTreinandoCerebro" />
+
+                        <Button
+                            android:id="@+id/bt23"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="23"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f26"
+                            style="@style/estiloButtonsMenuTreinandoCerebro" />
+
+                        <Button
+                            android:id="@+id/bt26"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="26"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/f21"
+                            style="@style/estiloButtonsMenuTreinandoCerebro" />
+
+                        <Button
+                            android:id="@+id/bt21"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="21"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f24"
+                            style="@style/estiloButtonsMenuTreinandoCerebro" />
+
+                        <Button
+                            android:id="@+id/bt24"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="24"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                        <Button
+                            android:id="@+id/f27"
+                            style="@style/estiloButtonsMenuTreinandoCerebro" />
+
+                        <Button
+                            android:id="@+id/bt27"
+                            style="@style/estiloButtonsMenuJogoForca" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="27"
+                            android:layout_gravity="center_horizontal"
+                            android:textColor="@android:color/background_light" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="vertical"
+            android:layout_weight="0"
+            android:background="@drawable/fundo_tela_invertido"
+            android:layout_alignParentBottom="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/barra01"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/relative01">
+
+                    <Button
+                        android:id="@+id/seta01"
+                        android:layout_alignParentLeft="true"
+                        style="@style/estiloButtonsSetaEsquerda" />
+
+                    <Button
+                        android:id="@+id/seta02"
+                        android:layout_alignParentRight="true"
+                        style="@style/estiloButtonsSetaDireita" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/relative02"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/seta03"
+                        android:layout_alignParentLeft="true"
+                        style="@style/estiloButtonsSetaEsquerda" />
+
+                    <Button
+                        android:id="@+id/seta04"
+                        android:layout_alignParentRight="true"
+                        style="@style/estiloButtonsSetaDireita" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/relative03"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/seta05"
+                        android:layout_alignParentLeft="true"
+                        style="@style/estiloButtonsSetaEsquerda" />
+
+                    <Button
+                        android:id="@+id/seta06"
+                        android:layout_alignParentRight="true"
+                        style="@style/estiloButtonsSetaDireita" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

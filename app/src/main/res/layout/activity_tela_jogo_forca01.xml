@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_tela"
+    android:orientation="vertical"
+    tools:context=".TelaJogoForca01">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pergunta"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                style="@style/estiloQuadroPerguntaForca"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/boneco"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                style="@style/estiloImagemBonecoForca" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:id="@+id/lvforca">
+
+
+                <TextView
+                    android:id="@+id/tv01"
+                    android:gravity="center_vertical|center_horizontal"
+                    style="@style/estiloButtonsJogoForcaPalavra02" />
+
+                <TextView
+                    android:id="@+id/tv02"
+                    android:gravity="center_vertical|center_horizontal"
+                    style="@style/estiloButtonsJogoForcaPalavra02" />
+
+                <TextView
+                    android:id="@+id/tv03"
+                    android:gravity="center_vertical|center_horizontal"
+                    style="@style/estiloButtonsJogoForcaPalavra02" />
+
+                <TextView
+                    android:id="@+id/tv04"
+                    android:gravity="center_vertical|center_horizontal"
+                    style="@style/estiloButtonsJogoForcaPalavra02" />
+
+                <TextView
+                    android:id="@+id/tv05"
+                    android:gravity="center_vertical|center_horizontal"
+                    style="@style/estiloButtonsJogoForcaPalavra02" />
+
+                <TextView
+                    android:id="@+id/tv06"
+                    android:gravity="center_vertical|center_horizontal"
+                    style="@style/estiloButtonsJogoForcaPalavra02" />
+
+                <TextView
+                    android:id="@+id/tv07"
+                    android:gravity="center_vertical|center_horizontal"
+                    style="@style/estiloButtonsJogoForcaPalavra02" />
+
+                <TextView
+                    android:id="@+id/tv08"
+                    android:gravity="center_vertical|center_horizontal"
+                    style="@style/estiloButtonsJogoForcaPalavra02" />
+
+                <TextView
+                    android:id="@+id/tv09"
+                    android:gravity="center_vertical|center_horizontal"
+                    style="@style/estiloButtonsJogoForcaPalavra02" />
+
+                <TextView
+                    android:id="@+id/tv10"
+                    android:gravity="center_vertical|center_horizontal"
+                    style="@style/estiloButtonsJogoForcaPalavra02" />
+
+                <TextView
+                    android:id="@+id/tv11"
+                    style="@style/estiloButtonsJogoForcaPalavra02"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <TextView
+                    android:id="@+id/tv12"
+                    android:gravity="center_vertical|center_horizontal"
+                    style="@style/estiloButtonsJogoForcaPalavra02" />
+
+            </LinearLayout>
+
+            <Button
+                android:text="Tentar novamente"
+                android:id="@+id/btn_novamente"
+                style="@style/estiloButtonsForcaPerdeuGanhou"
+                android:layout_marginTop="10dp"
+                android:visibility="gone" />
+
+            <Button
+                android:text="Voltar ao menu"
+                android:id="@+id/btn_voltar"
+                style="@style/estiloButtonsForcaPerdeuGanhou"
+                android:layout_marginTop="10dp"
+                android:visibility="gone" />
+
+            <Button
+                android:text="Prosseguir"
+                android:id="@+id/btn_prosseguir"
+                style="@style/estiloButtonsForcaPerdeuGanhou"
+                android:visibility="gone"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/fundo_tela_invertido">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lv01"
+                android:orientation="vertical"
+                android:layout_marginBottom="04dp"
+                android:layout_marginTop="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <Button
+                        android:text=""
+                        android:id="@+id/btn01"
+                        style="@style/estiloButtonsJogoForcaTeclado" />
+
+                    <Button
+                        android:text=""
+                        android:id="@+id/btn02"
+                        style="@style/estiloButtonsJogoForcaTeclado"/>
+
+                    <Button
+                        android:text=""
+                        android:id="@+id/btn03"
+                        style="@style/estiloButtonsJogoForcaTeclado"/>
+
+                    <Button
+                        android:text=""
+                        android:id="@+id/btn04"
+                        style="@style/estiloButtonsJogoForcaTeclado"/>
+
+                    <Button
+                        android:text=""
+                        android:id="@+id/btn05"
+                        style="@style/estiloButtonsJogoForcaTeclado" />
+
+                    <Button
+                        android:text=""
+                        android:id="@+id/btn06"
+                        style="@style/estiloButtonsJogoForcaTeclado"/>
+
+                    <Button
+                        android:text=""
+                        android:id="@+id/btn07"
+                        style="@style/estiloButtonsJogoForcaTeclado"/>
+
+                    <Button
+                        android:text=""
+                        android:id="@+id/btn08"
+                        style="@style/estiloButtonsJogoForcaTeclado"/>
+
+                    <Button
+                        android:text=""
+                        android:id="@+id/btn09"
+                        style="@style/estiloButtonsJogoForcaTeclado"/>
+
+                    <Button
+                        android:text=""
+                        android:id="@+id/btn10"
+                        style="@style/estiloButtonsJogoForcaTeclado"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <Button
+                        style="@style/estiloButtonsJogoForcaTeclado"
+                        android:text=""
+                        android:id="@+id/btn11"
+
+                        />
+
+                    <Button
+                        style="@style/estiloButtonsJogoForcaTeclado"
+                        android:text=""
+                        android:id="@+id/btn12" />
+
+                    <Button
+                        style="@style/estiloButtonsJogoForcaTeclado"
+                        android:text=""
+                        android:id="@+id/btn13" />
+
+                    <Button
+                        style="@style/estiloButtonsJogoForcaTeclado"
+                        android:text=""
+                        android:id="@+id/btn14" />
+
+                    <Button
+                        style="@style/estiloButtonsJogoForcaTeclado"
+                        android:text=""
+                        android:id="@+id/btn15" />
+
+                    <Button
+                        style="@style/estiloButtonsJogoForcaTeclado"
+                        android:text=""
+                        android:id="@+id/btn16" />
+
+                    <Button
+                        style="@style/estiloButtonsJogoForcaTeclado"
+                        android:text=""
+                        android:id="@+id/btn17" />
+
+                    <Button
+                        style="@style/estiloButtonsJogoForcaTeclado"
+                        android:text=""
+                        android:id="@+id/btn18" />
+
+                    <Button
+                        style="@style/estiloButtonsJogoForcaTeclado"
+                        android:text=""
+                        android:id="@+id/btn19" />
+
+                    <Button
+                        style="@style/estiloButtonsJogoForcaTeclado"
+                        android:text=""
+                        android:id="@+id/btn20" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_marginBottom="5dp">
+
+                    <Button
+                        style="@style/estiloButtonsJogoForcaTeclado"
+                        android:text=""
+                        android:id="@+id/btn21" />
+
+                    <Button
+                        style="@style/estiloButtonsJogoForcaTeclado"
+                        android:text=""
+                        android:id="@+id/btn22" />
+
+                    <Button
+                        style="@style/estiloButtonsJogoForcaTeclado"
+                        android:text=""
+                        android:id="@+id/btn23" />
+
+                    <Button
+                        style="@style/estiloButtonsJogoForcaTeclado"
+                        android:text=""
+                        android:id="@+id/btn24" />
+
+                    <Button
+                        style="@style/estiloButtonsJogoForcaTeclado"
+                        android:text=""
+                        android:id="@+id/btn25" />
+
+                    <Button
+                        style="@style/estiloButtonsJogoForcaTeclado"
+                        android:text=""
+                        android:id="@+id/btn26" />
+
+                    <Button
+                        style="@style/estiloButtonsJogoForcaTeclado"
+                        android:text=""
+                        android:id="@+id/btn27" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

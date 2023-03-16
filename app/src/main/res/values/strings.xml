@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Meu Habitat</string>
+
+    <string name="title_activity_fullscreen_tela_inicial">Ambiente Quiz</string>
+    <string name="button_play">PLAY</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="avatar">Escolha o seu\nAvatar</string>
+    <string name="info_onca">A onça pintada é um\nanimal ameaçado de extinção no Brasil.</string>
+    <string name="tello_inicial">Oi eu sou o Tello!\nVamos brincar?</string>
+    <string name="tello_texto">Qual destes é o Tello?</string>
+</resources>

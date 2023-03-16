@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fundo_tela"
+    tools:context=".TelaJogoQuiz01">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/layout_texto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingBottom="@dimen/bordas_bottom_reduzidas"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/bordas_top_reduzidas">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="25dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/button_onca"
+                        android:id="@+id/animal01"/>
+
+                    <Button
+                        style="@style/estiloQuadroTextoJogoQuiz"
+                        android:id="@+id/bt01"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="25dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/button_onca"
+                        android:id="@+id/animal02"/>
+
+                    <Button
+                        style="@style/estiloQuadroTextoJogoQuiz"
+                        android:id="@+id/bt02"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="25dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/button_onca"
+                        android:id="@+id/animal03"/>
+
+                    <Button
+                        style="@style/estiloQuadroTextoJogoQuiz"
+                        android:id="@+id/bt03"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_explicar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingBottom="@dimen/bordas_bottom_reduzidas"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/bordas_top_reduzidas">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="25dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:background="@drawable/button_onca"
+                        android:id="@+id/animal_licao"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:textSize="16sp"
+                        style="@style/estiloQuadroTextoJogoQuiz"
+                        android:id="@+id/bt_explicar"
+                        android:text="@string/info_onca"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_jogo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="56dp"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/bordas_bottom_reduzidas"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/bordas_top_reduzidas"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/p01"
+                        android:layout_width="75dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/coracao01" />
+
+                    <TextView
+                        android:id="@+id/p02"
+                        android:layout_width="75dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/coracao02"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/p03"
+                        android:layout_width="75dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/coracao03"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/progresso"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_horizontal"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/pergunta"
+                        style="@style/estiloQuadroPerguntaJogoQuiz"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center_horizontal" />
+
+                    <TextView
+                        android:id="@+id/percurso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:orientation="vertical">
+
+                    <RadioGroup
+                        android:id="@+id/rg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/btn01"
+                            style="@style/estiloRadioButtonsAlternativas"
+                            android:gravity="center_vertical" />
+
+                        <RadioButton
+                            android:id="@+id/btn02"
+                            style="@style/estiloRadioButtonsAlternativas"
+                            android:gravity="center_vertical"
+                            android:text="" />
+
+                        <RadioButton
+                            android:id="@+id/btn03"
+                            style="@style/estiloRadioButtonsAlternativas"
+                            android:gravity="center_vertical"
+                            android:text="" />
+
+                        <RadioButton
+                            android:id="@+id/btn_salvamento"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:visibility="gone"
+                            android:gravity="center_vertical"
+                            android:text="" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_perdeu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/anim_perdeu"
+                    style="@style/estiloImagemPerdeuVenceu"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/t01"
+                    style="@style/estiloButtonsForcaPerdeuGanhou"
+                    android:text="Tentar Novamente" />
+
+                <Button
+                    android:id="@+id/t02"
+                    style="@style/estiloButtonsForcaPerdeuGanhou"
+                    android:text="Voltar ao Menu" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_venceu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    style="@style/estiloImagemPerdeuVenceu"
+                    android:id="@+id/anim_venceu"
+                    android:gravity="center" />
+
+                <Button
+                    android:id="@+id/button_prosseguir02"
+                    style="@style/estiloButtonsForcaPerdeuGanhou"
+                    android:text="Prosseguir" />
+
+                <Button
+                    android:id="@+id/t03"
+                    style="@style/estiloButtonsForcaPerdeuGanhou"
+                    android:text="Menu Inicial" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="vertical"
+            android:layout_weight="0"
+            android:background="@drawable/fundo_tela_invertido"
+            android:layout_alignParentBottom="false">
+
+            <LinearLayout
+                android:id="@+id/barra_inferior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_prosseguir01"
+                    style="@style/estiloButtonMenu"
+                    android:text="Prosseguir" />
+
+                <Button
+                    android:id="@+id/button_prosseguir03"
+                    style="@style/estiloButtonMenu"
+                    android:text="Prosseguir"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/button_confirmar"
+                    style="@style/estiloButtonMenu"
+                    android:text="Confirmar"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

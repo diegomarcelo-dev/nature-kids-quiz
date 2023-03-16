@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_tela"
+    android:orientation="vertical"
+    tools:context=".TelaJogoInicial01">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout01"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:background="@drawable/background_pardo"
+            style="@style/estiloQuadroTextoJogoQuiz"
+            android:visibility="gone"
+            android:text="@string/tello_inicial"
+            android:id="@+id/text01"/>
+
+        <Button
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/button_paly"
+            android:visibility="gone"
+            android:id="@+id/btn01"/>
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="220dp"
+            android:background="@drawable/mascote"
+            android:id="@+id/im01"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/im02"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout02"
+        android:visibility="gone"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:background="@drawable/background_pardo"
+            style="@style/estiloQuadroTextoJogoQuiz"
+            android:layout_marginBottom="14dp"
+            android:text="@string/tello_texto" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:layout_margin="08dp"
+                android:background="@drawable/button_onca"
+                android:id="@+id/b01"/>
+
+            <Button
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:layout_margin="08dp"
+                android:background="@drawable/button_arara"
+                android:id="@+id/b02"/>
+
+            <Button
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:layout_margin="08dp"
+                android:background="@drawable/button_arara"
+                android:id="@+id/b03"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
